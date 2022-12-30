@@ -1,27 +1,48 @@
 body {
-    background-color: aquamarine;
+    background-color: rgba(10, 114, 79, 0.479);
     text-align: center;
 }
 
-h1 {
+.titulo {
     text-align: center;
-    color: rgb(104, 76, 19);
+    color: rgba(179, 41, 94, 0.938);
     font-weight: 300px;
     font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav {
-    font-size: 20px;
-    position: fixed;
+    font-size: 25px;
+    position: relative;
+}
+
+a:hover {
+    color: rgb(182, 108, 11);
 }
 
 form {
     border: solid 15px;
     background-color: bisque;
-    
+    width: 800px;
+    height: 1070px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+
+label {
+    font-size: 30px;
+    font-style: italic;
+}
+
+input {
+    width: 250px;
+    height: 25px;
 }
 
 p {
     font-size: 20px;
-    font-style: italic;
 }
+
+

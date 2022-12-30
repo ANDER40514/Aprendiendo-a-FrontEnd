@@ -1,21 +1,42 @@
 nav {
-    
+    font-size: 24px;
+    position: absolute;
+    margin-left: 20px;
 }
 
 body {
-    background-color: #5f0427;
+    background-color: azure;
 }
 
-
-
 h1 {
-    color:azure;
+    color: rgba(102, 80, 9, 0.719);
     text-align: center;
-    font-size: 45px;
+    font-size: 60px;
+    padding: 50px;
+    border: solid red;
 }
 
 
 main {
-    color: #FFF;
+    color: black;
 }
 
+.sub {
+    text-align: center;
+}
+
+img {
+    width: 370px;
+    padding: 50px;
+    margin-left: 30px;
+    border: solid 15px;
+
+}
+
+a:hover {
+    color:rgb(17, 111, 128);
+}
+
+#footer {
+    text-align: center;
+}

@@ -1,34 +1,81 @@
+body {
+    background-color: rgba(223, 223, 223, 0.753);
+}
+
+.comienzo {
+    background-color: rgb(216, 203, 203);
+    height: 265px;
+
+}
 
 nav {
     margin: 20px;
-    text-align: left;
+    text-align: right;
     font-style: italic;
-    font-size: 18px;
-}
-
-
-body {
-    background-color: rgb(164, 160, 209);
+    font-size: 20px;
+    
 }
 
 /* al pasar el mouse por el link */
 .navbar a:hover {
-    color:red
+    color: yellow;
 }
 
 .titulo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 65px;
-    color: red;
+    color: rgb(78, 41, 41);
     padding: 40px;
-   
+
 }
 
 
 .encabezado {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 3px;
 }
 
+#foo {
+    text-align: center;
+    padding-top: 20px;
 
+}
+
+.portada {
+    margin: 25px;
+    padding: 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 0 50px 50px 50px;
+
+
+}
+
+.img {
+    margin: 25px;
+    padding: 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 90px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    width: 1130px;
+    height: 60px;
+    font-size: 20px;
+    background-color: aquamarine;
+    text-transform: uppercase;
+
+}
+
+button :hover {
+    color: rgb(226, 14, 14);
+}

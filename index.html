@@ -5,7 +5,7 @@
 
 <!-- ------------------------------------------------------------------------------------------
   USO DE GIT/ GITHUB 
-^ Abrir Terminal
+^ Abrir Terminal ( CTRL + SHIFT + ` AL LADO DEL 1)
 ^ (git add . ) -> Añadir los cambios pendientes al repositorio
 ^ (git commit -m " ") -> Subir commit al repositorio
 ^ (git push) -> Realizar Push
@@ -35,18 +35,19 @@ Consejos:
 
 <header>
     <!--Alt + click en multiples lineas, para escribir al mismo tiempo en varias lineas de codigo-->
+    <div class="comienzo">
+        <nav class="navbar">
+            <a href="#inicio"><strong>Inicio</strong></a>
+            <a href="#elect"><strong>Autos Electricos</strong></a>
+            <a href="#comb"><strong>Autos de Combustion</strong></a><strong>
+                <a href="#footer"><strong>Pie de Pagina</strong></a>
+        </nav>
 
-    <nav class="navbar">
-        <a href="#inicio"><strong>Inicio</strong></a>
-        <a href="#elect"><strong>Autos Electricos</strong></a>
-        <a href="#comb"><strong>Autos de Combustion</strong></a><strong>
-        <a href="#footer"><strong>Pie de Pagina</strong></a>
-        <a href="#form"><strong>Formulario</strong></a>
-    </nav>
+        <!-- <u> Subrayado y <em> italica -->
 
-    <h1 class="titulo"><em>Autos Master Code</em></h1>
-    <hr>
-
+        <h1 class="titulo"><em><u>Autos Master Code</u></em></h1>
+        <hr>
+    </div>
 
 </header>
 <!-- CTRL + L para copiar una linea entera-->
@@ -54,15 +55,21 @@ Consejos:
 <body>
     <main>
         <section>
-            <h2 class="encabezado" id="inicio"><em>Diferentes Tipos de Vehiculos</em></h2>
+            <h2 class="encabezado" id="inicio"><em><u>Diferentes Tipos de Vehiculos</u></em></h2>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio vel maxime iure aut eligendi, nam
                 laboriosam, magnam corporis dolor velit aperiam autem commodi, sint ipsa ab. Qui tempore corrupti quia?
             </p>
 
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aspernatur, sint temporibus, ipsum
-                alias cupiditate nobis velit pariatur quia perferendis, iste autem est. Alias architecto, molestiae
-                maiores odit asperiores modi.</p>
+            <!--link hacia otra pagina HTML-->
+
+            <a href="#comb"><img class="portada" src="Imagenes/Bentley.jpg" alt="bentley"></a>
+            <a href="#comb"><img class="portada" src="Imagenes/Corvette.jpg" alt="Corvette"></a>
+            <a href="#comb"><img class="portada" src="Imagenes/GTR.jpg" alt="gtr"></a>
+            <a href="#elect"><img class="portada" src="Imagenes/tesla-model-3.jpg" alt="Tesla model 3"></a>
+            <a href="#elect"><img class="portada" src="Imagenes/tesla-model-s.jpg" alt="Tesla Model S"></a>
+            <a href="#elect"><img class="portada" src="Imagenes/tesla-model3.jpg" alt="Tesla Model 3"></a>
+
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur at facere sequi alias culpa laborum odit
                 quos placeat aperiam rerum deserunt et, eaque nostrum optio iure, sapiente sit totam hic.</p>
@@ -87,14 +94,19 @@ Consejos:
                 debitis, fugiat sed asperiores atque tenetur minus incidunt, voluptates et neque iure quos ab
                 consectetur.</p>
 
+
         </section>
         <section>
 
-            <h2 class="encabezado" id="elect"><em>Vehiculos Electricos</em></h2>
+            <h2 class="encabezado" id="elect"><em><u>Vehiculos Electricos</u></em></h2>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio vel maxime iure aut eligendi, nam
                 laboriosam, magnam corporis dolor velit aperiam autem commodi, sint ipsa ab. Qui tempore corrupti
                 quia?</p>
+
+            <img class="img" src="Imagenes/tesla-model-3.jpg" alt="Tesla model 3">
+            <img class="img" src="Imagenes/tesla-model-s.jpg" alt="Tesla Model S">
+            <img class="img" src="Imagenes/tesla-model3.jpg" alt="Tesla Model 3">
 
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aspernatur, sint temporibus,
                 ipsum alias cupiditate nobis velit pariatur quia perferendis, iste autem est. Alias architecto,
@@ -111,18 +123,41 @@ Consejos:
                 debitis, fugiat sed asperiores atque tenetur minus incidunt, voluptates et neque iure quos ab
                 consectetur.</p>
 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nesciunt id reiciendis et optio numquam
+                nam quisquam? Voluptas repellendus quisquam quam veniam, animi veritatis quasi voluptate exercitationem
+                fuga voluptatibus corporis.</p>
+    
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos enim placeat iure magni! Pariatur id,
+                debitis, fugiat sed asperiores atque tenetur minus incidunt, voluptates et neque iure quos ab
+                consectetur.</p>
+    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nesciunt id reiciendis et optio numquam
+                nam quisquam? Voluptas repellendus quisquam quam veniam, animi veritatis quasi voluptate exercitationem
+                fuga voluptatibus corporis.</p>
+    
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos enim placeat iure magni! Pariatur id,
+                debitis, fugiat sed asperiores atque tenetur minus incidunt, voluptates et neque iure quos ab
+                consectetur.</p>
+
+            <p>Mas informacion acerca de los modelos y Vehiculos Electricos, en el link de abajo.</p>
+
+
             <br>
             <!--Conexion a otro archivo HTML el cual se encuentra en otra carpeta (Carpeta/archivo)-->
-            <button><a href="Autos-elect/elect.html">Ver mas</a></button>
+            <button><a href="Autos-elect/elect.html" target="_blank">Ver más</a></button>
         </section>
 
         <section>
 
-            <h2 class="encabezado" id="comb"> Vehiculos De Combustion</h2>
+            <h2 class="encabezado" id="comb"><em><u>Vehiculos De Combustion</u></em></h2>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio vel maxime iure aut eligendi, nam
                 laboriosam, magnam corporis dolor velit aperiam autem commodi, sint ipsa ab. Qui tempore corrupti quia?
             </p>
+
+            <img class="img" src="Imagenes/GTR.jpg" alt="gtr">
+            <img class="img" src="Imagenes/Hellcat.jpg" alt="Hellcat">
+            <img class="img" src="Imagenes/Lambo.jpg" alt="Lambo">
 
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aspernatur, sint temporibus, ipsum
                 alias cupiditate nobis velit pariatur quia perferendis, iste autem est. Alias architecto, molestiae
@@ -155,19 +190,22 @@ Consejos:
                 debitis, fugiat sed asperiores atque tenetur minus incidunt, voluptates et neque iure quos ab
                 consectetur.</p>
 
+            <p>Mas informacion acerca de los modelos y carros de Combustion, en el link de abajo</p>
             <br>
-                        
+
+
             <!--Conexion a otro archivo HTML el cual se encuentra en otra carpeta (Carpeta/archivo)-->
 
-            <button><a href="Autos-combustion/comb.html">Ver mas</a></button>
+            <button><a href="Autos-combustion/comb.html" target="_blank">Ver más</a></button>
         </section>
 
 
     </main>
 </body>
 <hr>
-<p id="footer">Deja tu comentario en el siguiente enlace <a href="Formulario/form.html">Click aqui</a></p>
+<p id="foo">Deja tu comentario en el siguiente enlace <a href="Formulario/form.html" target="_blank">Click aqui</a>
+</p>
 
-<footer id="form">Realizado Por Anderson :)</footer>
+<footer id="foo">&copy Realizado Por Anderson :)</footer> 
 
 </html>
