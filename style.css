@@ -1,0 +1,32 @@
+
+nav {
+    margin: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+
+body {
+    background-color: rgb(164, 160, 209);
+}
+
+/* al pasar el mouse por el link */
+.navbar a:hover {
+    color:red
+}
+
+.titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 65px;
+    color: red;
+}
+
+
+.encabezado {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
