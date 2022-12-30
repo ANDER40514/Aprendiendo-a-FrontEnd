@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(22, 151, 123);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+}
+
+
+p {
+    color: white;
+    font-weight: 500px;
+}
+
+footer {
+    color: white;
+}

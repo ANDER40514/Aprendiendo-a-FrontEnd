@@ -3,9 +3,22 @@ body {
     text-align: center;
 }
 
+h1 {
+    text-align: center;
+    color: rgb(104, 76, 19);
+    font-weight: 300px;
+    font-size: 55px;
+}
+
+nav {
+    font-size: 20px;
+    position: fixed;
+}
+
 form {
-    border: solid;
+    border: solid 15px;
     background-color: bisque;
+    
 }
 
 p {
