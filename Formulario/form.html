@@ -1,4 +1,8 @@
 <!-- a:hover en css para cuando se pase el mouse -->
+
+<!-- *  SHIFT + ALT + F = Indentacion automatica -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,52 +17,72 @@
 <body>
     <!-- (../) Carpeta antes de la que nos encontramos -->
     <nav>
-        <a href="../">Inicio</a>
-        <a href="../Autos-combustion/comb.html">Combustion
-        <a href= "../Autos-elect/elect.html " >Electricos</a>
+        <a href="../"><strong>Inicio</strong></a>
+        <a href="../Autos-combustion/comb.html"><strong>Combustion</strong></a>
+        <a href="../Autos-elect/elect.html "><strong>Electricos</strong></a>
     </nav>
 
-    
+
     <h1>Formulario</h1>
 
 
- 
 
+    <!-- Label representa el titulo para un elemento en una interfaz de usuario-->
 
     <form>
-        <p>Ingresa tu nombre Compeleto</p>
-        <input type="text" name="nombre" placeholder="Ingrese su Nombre" required>
+        <div class="form">
+            <label for="name">Ingresa tu nombre Completo</label><br><br>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre" required>
+        </div>
 
-        <p>Ingresa tu Edad</p>
-        <input type="number" name="number" placeholder="Ingrese su Edad">
+        <div class="form">
+            <label for="edad">Ingresa tu Edad</label><br><br>
+            <input type="number" name="number" id="number" placeholder="Ingrese su Edad">
+        </div>
 
-        <p>Ingresa tu Correo</p>
-        <input type="email" name="correo" placeholder="Ingrese su Correo">
+        <div class="form">
+            <label for="correo">Ingresa tu correo electronico</label><br><br>
+            <input type="email" name="correo" id="Correo" placeholder="Ingrese su Correo">
+        </div>
 
-        <p>Ingresa tu fecha de nacimiento</p>
-        <input type="date">
+        <div class="form">
+            <label for="fecha">Ingresa tu Fecha de nacimiento</label><br><br>
+            <input type="date" name="fecha" id="fecha">
+        </div>
 
-        <p>Ingresa tu Color favorito</p>
-        <input type="color">
+        <div class="form">
+            <label for="color">Ingresa tu Color Favorito</label><br><br>
+            <input type="color" name="color" id="color">
+        </div>
 
-        <p>¿Como calificas el estado de la Pagina?</p>
-        <input type="range">
+        <div class="form">
+            <label for="rango">¿Como calificas el estado de la Pagina?</label><br><br>
+            <input type="range" name="rango" id="rango">
+        </div>
 
-        <p>¿Cual es tu Vehiculo Favorito?</p>
-        <input type="file">
+        <div class="form">
+            <label for="documento">¿Cual es tu Vehiculo Favorito?</label><br><br>
+            <input type="file" name="documento" id="documento">
+        </div>
 
-        <p>Agregar una opinion</p>
-        <input type = "text">
+        <div class="form">
+            <label for="comentario">Deja tu comentario</label><br><br>
+            <input type="text-area" name="comentario" id="comentario">
+        </div>
 
         <!-- Comando Br*4-->
         <br><br><br><br>
 
-        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+        <p>Estoy de acuerdo con <a href="#">Terminos y Condici<strong></strong>ones</a></p>
 
         <br><br>
-        <input type="reset">
-        <input type ="submit" value="Enviar">
+        <div class="footer-reset">
+            <input type="reset">
+        </div>
 
+        <div class="footer-submit">
+            <input type="submit" value="Enviar">
+        </div>
     </form>
 </body>
 

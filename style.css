@@ -1,7 +1,7 @@
 
 nav {
     margin: 20px;
-    text-align: center;
+    text-align: left;
     font-style: italic;
     font-size: 18px;
 }
@@ -21,6 +21,7 @@ body {
     text-align: center;
     font-size: 65px;
     color: red;
+    padding: 40px;
    
 }
 
