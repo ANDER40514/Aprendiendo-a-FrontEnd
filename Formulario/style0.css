@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+form {
+    border: solid;
+    background-color: bisque;
+}
+
+p {
+    font-size: 20px;
+    font-style: italic;
+}
