@@ -9,9 +9,16 @@
 ^ (git add . ) -> Añadir los cambios pendientes al repositorio
 ^ (git commit -m " ") -> Subir commit al repositorio
 ^ (git push) -> Realizar Push
+^ (git pull) -> Realizar Pull
 ^ (git status -s ) -> Ver archivos los cuales no han sido registrados
 ^ (git log --oneline) -> Ver una lista de los Commit realizado 
 ^ (CLS) -> Limpiar la consola
+^ (git tag versionAlpha -m "versión alpha") -> Crear tag
+^ (git tag) -> Listar tag
+^ (git tag -d nombreTags)-> Borrar Tag
+^ (git tag -a nombreTag f52f3da -m "version alpha")-> Hacer una versión en un commit anterior ej: f52f3da
+^ (git show nombreTag)-> Mostrar informacion acerca del tag
+
 -------------------------------------------------------------------------------------------------  
 Consejos:
 *   SHIFT + ALT + F  = Indentacion Automatica
