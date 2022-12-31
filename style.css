@@ -45,6 +45,10 @@ nav {
 
 }
 
+#foo :hover {
+    color: yellow;
+}
+
 .portada {
     margin: 25px;
     padding: 30px;

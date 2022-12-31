@@ -4,14 +4,29 @@
 <html lang="es">
 
 <!-- ------------------------------------------------------------------------------------------
-  USO DE GIT/ GITHUB 
+  USO DE GIT/ GITHUB (https://bluuweb.github.io/desarrollo-web-bluuweb/07-01-git/#crear-repositorio)
 ^ Abrir Terminal ( CTRL + SHIFT + ` AL LADO DEL 1)
+^ (git clone URL nombreCarpeta) -> Clonar repositorio 
 ^ (git add . ) -> Añadir los cambios pendientes al repositorio
 ^ (git commit -m " ") -> Subir commit al repositorio
 ^ (git push) -> Realizar Push
 ^ (git status -s ) -> Ver archivos los cuales no han sido registrados
 ^ (git log --oneline) -> Ver una lista de los Commit realizado 
 ^ (CLS) -> Limpiar la consola
+^ (git chekout [ID]) -> Para ir a un commit en especifico
+^ (git reset --hard [ID]) -> Para ir a un commit en especificio y borrar los demas archivos a futuros (destructivo)
+^ (git reset [ID]) -> Para ir a un commit en especificio y dejar  los demas archivos sin  seguimiento para actualizaciones
+^ (git reflog) -> para restaurar los cambios borrados
+^ (git revert [ID]) -> deshace los cambios realizados por un commit anterior creando un commit completamente nuevo, todo esto sin alterar el historial de commits.
+^ (git branch) -> Verificar la Rama en la que estamos
+^ (git branch nombreRama) -> Crear una nueva Rama
+^ (git checkout nombreRama) -> Movernos de Rama
+^ (git log --oneline --graph) -> Nos muestra visualmente las ramas
+^ (git merge nombreRama) -> Podemos unir una rama con la nueva, para eso tenemos que estar en la rama que espera los cambios
+^ (git branch -d nombreRama) -> Eliminar una rama
+^ (git checkout -b nuevaRama) -> Crear una nueva rama y viajar en ella
+^ (git remote -v) -> Verificar en que rama nos encontramos
+
 -------------------------------------------------------------------------------------------------  
 Consejos:
 *   SHIFT + ALT + F  = Indentacion Automatica
@@ -26,7 +41,7 @@ Consejos:
 **  Fuentes Externas  (Head) -->
 
 <head>
-    <meta charset="UTF-8">
+/    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=style.css>
@@ -40,7 +55,7 @@ Consejos:
             <a href="#inicio"><strong>Inicio</strong></a>
             <a href="#elect"><strong>Autos Electricos</strong></a>
             <a href="#comb"><strong>Autos de Combustion</strong></a><strong>
-                <a href="#footer"><strong>Pie de Pagina</strong></a>
+            <a href="#foo"><strong>Pie de Pagina</strong></a>
         </nav>
 
         <!-- <u> Subrayado y <em> italica -->
