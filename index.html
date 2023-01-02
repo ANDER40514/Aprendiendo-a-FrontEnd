@@ -13,9 +13,10 @@
 ^ (git status -s ) -> Ver archivos los cuales no han sido registrados
 ^ (git log --oneline) -> Ver una lista de los Commit realizado 
 ^ (CLS) -> Limpiar la consola
-^ (git tag versionAlpha -m "versión alpha") -> Crear tag
+^ (git tag nombreVersion -m "versión alpha (Ejemplo: "0.1") -> Crear tag
 ^ (git tag) -> Listar tag
 ^ (git tag -d nombreTags)-> Borrar Tag
+^ (git push --tag) -> Subir el Tag a Github
 ^ (git tag -a nombreTag f52f3da -m "version alpha")-> Hacer una versión en un commit anterior ej: f52f3da
 ^ (git show nombreTag)-> Mostrar informacion acerca del tag
 
@@ -38,22 +39,27 @@ Consejos:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=style.css>
     <title>Prueba 1.0</title>
+    <!--FontAwesome para poder utilizar iconos-->
+    <script src="https://kit.fontawesome.com/69ffbfa8bf.js" crossorigin="anonymous"></script>
 </head>
 
 <header>
     <!--Alt + click en multiples lineas, para escribir al mismo tiempo en varias lineas de codigo-->
     <div class="comienzo">
         <nav class="navbar">
-            <a href="#inicio"><strong>Inicio</strong></a>
-            <a href="#elect"><strong>Autos Electricos</strong></a>
-            <a href="#comb"><strong>Autos de Combustion</strong></a><strong>
-                <a href="#footer"><strong>Pie de Pagina</strong></a>
+            <i class="fa-solid fa-user"></i>
+            <a class = "navegacion" href="#inicio"><strong>Inicio</strong></a>
+            <a class = "navegacion" href="#elect"><strong>Autos Electricos</strong></a>
+            <a class = "navegacion" href="#comb"><strong>Autos de Combustion</strong></a><strong>
+            <a class = "navegacion" href="#footer"><strong>Pie de Pagina</strong></a>
         </nav>
 
         <!-- <u> Subrayado y <em> italica -->
 
         <h1 class="titulo"><em><u>Autos Master Code</u></em></h1>
         <hr>
+
+
     </div>
 
 </header>

@@ -8,6 +8,14 @@ nav {
     padding-bottom: 10px;
 }
 
+.navegacion {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+
+
 h1 {
     text-align: center;
     color: white;

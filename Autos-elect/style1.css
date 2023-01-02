@@ -4,8 +4,14 @@ nav {
     margin-left: 20px;
 }
 
+.navegacion {
+    margin: 0 15px;
+    font-weight: bolder;
+    width: 100%;
+}
+
 body {
-    background-color: azure;
+    background: linear-gradient(#F9957F,#F2F5D0);
 }
 
 h1 {

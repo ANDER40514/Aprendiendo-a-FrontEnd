@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(10, 114, 79, 0.479);
+    background: linear-gradient(#0CCDA3,#C1F);
     text-align: center;
 }
 
@@ -14,6 +14,12 @@ body {
 nav {
     font-size: 25px;
     position: relative;
+    width: 100%;
+    height: 100%;
+}
+/* margen de izquierda y derecha de 10 */
+.navegacion {
+    margin: 0 15px;
 }
 
 a:hover {
@@ -44,5 +50,7 @@ input {
 p {
     font-size: 20px;
 }
+
+
 
 

@@ -1,9 +1,9 @@
 body {
-    background-color: rgba(223, 223, 223, 0.753);
+    background: linear-gradient(45deg,#ff0078,#F6EFA7);
 }
 
 .comienzo {
-    background-color: rgb(216, 203, 203);
+    background-color: rgb(white, 203, 203);
     height: 265px;
 
 }
@@ -12,8 +12,12 @@ nav {
     margin: 20px;
     text-align: right;
     font-style: italic;
-    font-size: 20px;
-    
+    font-size: 20px;   
+}
+
+.navegacion {
+    margin: 0 25px;
+    text-align: center;
 }
 
 /* al pasar el mouse por el link */
