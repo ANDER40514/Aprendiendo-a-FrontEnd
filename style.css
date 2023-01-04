@@ -1,24 +1,5 @@
 body {
-    background-color: rgba(223, 223, 223, 0.753);
-}
-
-.comienzo {
-    background-color: rgb(216, 203, 203);
-    height: 265px;
-
-}
-
-nav {
-    margin: 20px;
-    text-align: right;
-    font-style: italic;
-    font-size: 20px;
-    
-}
-
-/* al pasar el mouse por el link */
-.navbar a:hover {
-    color: yellow;
+    background: linear-gradient(to bottom, pink,white,cyan);
 }
 
 .titulo {
@@ -27,59 +8,53 @@ nav {
     font-size: 65px;
     color: rgb(78, 41, 41);
     padding: 40px;
-
+    top: 0px;
 }
 
 
-.encabezado {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+.container {
+    border-radius: 20px;
+    background-color: rgb(197, 57, 14);
+    height: 150px;
+    width: auto;
+    position: relative;
+    padding: 15px;
+    margin: 45px;
+    align-items: center;
+    display: inline-block;
+    font-size: 150px;
+    border: none;
+
+}
+
+.logo {
+    align-items: center;
+    bottom: 10px;
+    margin: 5px 60px;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    cursor: alias;
     text-align: center;
-    padding: 30px;
-    letter-spacing: 3px;
+    transition: .5s ease all;
 }
 
-#foo {
+.logo:hover {
+    background-color: white;
+    border: double 8px;
+}
+
+
+.foo {
     text-align: center;
     padding-top: 20px;
-
+    margin: 20;
+    height: 200px;
+    font-size: 27px;
+    border: ;
 }
 
-#foo :hover {
-    color: yellow;
+.foo :hover {
+    color: yellow; 
 }
 
-.portada {
-    margin: 25px;
-    padding: 30px;
-    width: 250px;
-    height: 250px;
-    border-radius: 0 50px 50px 50px;
-
-
-}
-
-.img {
-    margin: 25px;
-    padding: 30px;
-    width: 250px;
-    height: 250px;
-    border-radius: 90px;
-}
-
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-button {
-    width: 1130px;
-    height: 60px;
-    font-size: 20px;
-    background-color: aquamarine;
-    text-transform: uppercase;
-
-}
-
-button :hover {
-    color: rgb(226, 14, 14);
-}
