@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(145, 81, 81);
+}
+
+
+nav {
+   font-size: 24px;
+}
+
+h1 {
+    right: 0px;
+    position: relative;
+    font-size: 8em;
+    text-align: center;
+}
+
+
+img {
+    width: 550px;
+    margin: 25px;
+    padding: auto;
+    height: 350px;
+    border: solid 15px blanchedalmond;
+}
+
+
+p, ul, li {
+    font-size: 24px;
+}
+
+.sub{
+    font-size: 40px;
+}
+
+.img2 {
+    width: 50%;
+    height: 50%;
+}

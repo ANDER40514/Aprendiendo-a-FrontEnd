@@ -24,7 +24,6 @@ body {
     display: inline-block;
     font-size: 150px;
     border: none;
-
 }
 
 .logo {
@@ -51,7 +50,6 @@ body {
     margin: 20;
     height: 200px;
     font-size: 27px;
-    border: ;
 }
 
 .foo :hover {

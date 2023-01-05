@@ -1,3 +1,44 @@
 body {
-    background-color: aqua;
+    background-color: #1694ad;
+}
+
+h1 {
+    font-size: 56px;
+    text-align: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    position: absolute;
+    margin: 0 35px;
+    list-style: none;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    float: left;
+    width: 50%;
+    word-spacing: 100px;
+    font-size: 38px;
+}
+
+nav:hover {
+    color: yellow;
+    background-color: #c5e3e9;
+}
+
+img {
+    width: 50%;
+    margin: 0 50px;
+
+}
+
+h2 {
+   font-size: 56px;
+   margin: 20 50px;
+   font-family: verdana;
+
+}
+
+p, ul {
+  margin: 20 50px;
+  font-size: 24px;
 }

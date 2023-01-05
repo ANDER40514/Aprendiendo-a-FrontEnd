@@ -5,61 +5,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="sytlesheet" href="consejos.css">
-    <title>Consejos</title>
+    <link rel="stylesheet" href="git.css">
+    <script src="https://kit.fontawesome.com/69ffbfa8bf.js" crossorigin="anonymous"></script>
+    <title>Consejos Git</title>
 </head>
 
+ <header>
+    <h1>ATAJOS GIT/GITHUB Y VS CODE</h1>
+ </header>
+
+ <nav>
+    <ul>
+    <a class= "link" href="../index.html"><i class="fa-solid fa-house-laptop"></i></a>
+   <a class= "link" href="../ConseHtml/port.html">HTML</a>
+   <a class= "link" href="../CSS/CSS.html">CSS</a>
+    </ul> 
+</nav>
+
 <body>
-    <h1>Consejos</h1>
+   <main>
+    <h2 class="sub"><strong>ATAJOS GIT/ GITHUB</strong></h2>
+    <hr><br><br>
+ <ul>
 
-    <h2>USO DE GIT/ GITHUB</h2>
+ 
 
-    <p>Fuente:(https://bluuweb.github.io/desarrollo-web-bluuweb/07-01-git/#crear-repositorio)</p>
+    <p>Git/GITHUB es una herramienta para subir tus proyectos a las nube, una excelente plataforma para el trabajo equipo ya que se pueden 
+    realizar modificiaciones de manera simultanea, y a su vez los integrantes del proyecto hacer una rama (branch) y trabajar independiente
+    </p>
     <br><br>
 
-    <ul>
-        <li>Abrir Terminal ( CTRL + SHIFT + ` AL LADO DEL 1)</li><br>
-        <li> (git clone URL nombreCarpeta) -> Clonar repositorio</li><br>
-        <li> (git add . ) -> Añadir los cambios pendientes al repositorio</li><br>
-        <li> (git commit -m " ") -> Subir commit al repositorio</li><br>
-        <li> (git push) -> Realizar Push</li><br>
-        <li> (git status -s ) -> Ver archivos los cuales no han sido registrados</li><br>
-        <li> (git log --oneline) -> Ver una lista de los Commit realizado</li><br>
-        <li> (CLS) -> Limpiar la consola</li><br>
-        <li> (git chekout [ID]) -> Para ir a un commit en especifico</li><br>
-        <li> (git reset --hard [ID]) -> Para ir a un commit en especificio y borrar los demas archivos a futuros<br>
-            (destructivo)</li><br>
-        <li> (git reset [ID]) -> Para ir a un commit en especificio y dejar los demas archivos sin seguimiento para<br>
-            actualizaciones</li><br>
-        <li> (git reflog) -> para restaurar los cambios borrados</li><br>
-        <li> (git revert [ID]) -> deshace los cambios realizados por un commit anterior creando un commit completamente<br>
-            nuevo, todo esto sin alterar el historial de commits.</li><br>
-        <li> (git branch) -> Verificar la Rama en la que estamos</li><br>
-        <li> (git branch nombreRama) -> Crear una nueva Rama</li><br>
-        <li> (git checkout nombreRama) -> Movernos de Rama</li><br>
-        <li> (git log --oneline --graph) -> Nos muestra visualmente las ramas</li><br>
-        <li> (git merge nombreRama) -> Podemos unir una rama con la nueva, para eso tenemos que estar en la rama que
-            espera los cambios</li><br>
-        <li> (git branch -d nombreRama) -> Eliminar una rama</li><br>
-        <li> (git checkout -b nuevaRama) -> Crear una nueva rama y viajar en ella</li><br>
-        <li> (git remote -v) -> Verificar en que rama nos encontramos</li><br>
-        <li> (git push --set-upstream origin nombreRama) -> Aplicar push con la nueva Rama</li><br>
+
+    <article>Fuente:(https://bluuweb.github.io/desarrollo-web-bluuweb/07-01-git/#crear-repositorio)</article>
+    <br><br>
+
+    <h2 class="sub">Atajos de Git and Github</h2>
+  
+
+    <p>Abrir Terminal</p>
+
+     <p class="ejemplo">CTRL + SHIFT + ` (AL LADO DEL 1)</p>
+
+    <p>  Clonar repositorio</p>
+
+     <p class="ejemplo">(git clone URL nombreCarpeta)</p>
+    
+
+    <p> Añadir los cambios pendientes al repositorio</p>
+
+     <p class="ejemplo">(git add . )</p>
+ 
+
+
+    <p> Subir commit al repositorio</p>
+    
+     <p class="ejemplo">(git commit -m " ")</p>
+
+
+    <p> Realizar Push</p>
+
+        <p class="ejemplo">(git push)</p>
+
+    <p> Ver archivos los cuales no han sido registrados</p>
+     
+        <p class="ejemplo">(git status -s )</p>
+
+    <p> Ver una lista de los Commit reapzado</p>
+
+        <p class="ejemplo">(git log --onelone)</p>
+
+    <p> Para ir a un commit en especifico</p>
+
+    <p class="ejemplo">(git chekout [ID])</p>
+
+    <p> Para ir a un commit en especificio y borrar los demas archivos a futuros(destructivo)</p>
+
+        <p class="ejemplo">(git reset --hard [ID]) </p>
+
+
+    <p>Para ir a un commit en especificio y dejar los demas archivos sin seguimiento para actualizaciones</p>
+
+        <p class="ejemplo">(git reset [ID])</p>
+
+
+    <p> para restaurar los cambios borrados</p>
+
+        <p class="ejemplo">(git reflog)</p>
+
+
+    <p> Deshace los cambios reapzados por un commit anterior creando un commit completamente<br>
+        nuevo, todo esto sin alterar el historial de commits.</p>
+
+       <p class="ejemplo">(git revert [ID]) </p>
+
+    <p> Verificar la Rama en la que estamos</p>
+
+
+        <p class="ejemplo">(git branch)</p>
+
+
+    <p>Crear una nueva Rama</p>
+
+    <p class="ejemplo">(git branch nombreRama)</p>
+    
+    
+    <p>Movernos de Rama</p>
+
+    <p class="ejemplo">(git checkout nombreRama)</p>
+
+
+    <p> Nos muestra visualmente las ramas</p>
+
+    <p class="ejemplo">(git log --oneline --graph)</p>
+
+
+    <p> Podemos unir una rama con la nueva, para eso tenemos que estar en la rama que espera los cambios </p>
+
+    <p class="ejemplo">(git merge nombreRama)</p>
+
+    <p> Eliminar una rama</p>
+
+    <p class="ejemplo">(git branch -d nombreRama)</p>
+
+
+    <p> Crear una nueva rama y viajar en ella </p>
+    <p class="ejemplo">(git checkout -b nuevaRama)</p>
+
+    <p> Verificar en que rama nos encontramos </p> 
+    <p class="ejemplo">(git remote -v)</p>
+
+ 
+     <p>Aplicar push con la nueva Rama </p>
+
+    <p class="ejemplo">(git push --set-upstream origin nombreRama) </p>
+
+    <p>Ver las carpetas</p>
+
+    <p class="ejemplo">Git status -s</p>
+
+    <p>Ver un listado de archivos y carpetas</p>
+
+    <p class="ejemplo">Ls</p>
+
+    <p>Visualizar los cambios que se realizaran en el commit</p>
+
+    <p class="ejemplo">Git diff</p>
+
+    <p>Ver contenido de un archivo</p>
+
+    <p class="ejemplo">Cat (documento.txt)</p>
+
+    <p>Agregar un archivo de GIT </p>
+    <p class="ejemplo">Git add archivo2.txt</p>
+
+    <p>Eliminar un archivo de GIT </p>
+        <p class="ejemplo">rm archivo2.txt</p>
+
     </ul>
 
-    <h2>Atajos de Visual Studio Code</h2>
+
+    <br><br>
+    <h2 class="sub"><u>Atajos de ejemplo Studio Code</u></h2><br>
+    <br><br>
+
 
     <ul>
-        <li>(li * 3) li x la cantidad de numeros que quieres que se repita la sentencia</li><br>
-        <li>(br * 3) br x la cantidad de numeros que quieres que se repita la sentencia</li><br>
-        <li>Escribir solo (!) para construir la estructura</li><br>
-        <li> SHIFT + ALT + F = Indentacion Automatica</li><br>
-        <li> CTRL + P = para navegar entre documentos</li><br>
-        <li> CTRL + G = para buscar una linea de codigo en especifico </li><br>
-        <li> CTRL + F = Buscar Palabras en el archivo abierto</li><br>
-        <li> CTRL + H = Remplazar </li><br>
-        <li> CTRL + B = Minimizar la barra lateral izquierda y abrirla nuevamente </li><br>
-    </ul>
 
+        <p>li x la cantidad de numeros que quieres que se repita la sentencia </p>
+
+        <p class="ejemplo">(li * 3) </p>
+
+
+        <p>br x la cantidad de numeros que quieres que se repita la sentencia </p>
+        <p class="ejemplo">(br * 3) </p>
+
+        <p>Crear conectores con elementos dentro</p>
+
+        <p class="ejemplo">ul>li*5>a[href="#"]{Elemento $}
+
+        
+        <p>Escribir solo (!) para construir la estructura </p>
+
+        <p>SHIFT + ALT + F = Indentacion Automatica </p>
+
+        <p>CTRL + P = para navegar entre documentos </p>
+
+        <p> CTRL + G = para buscar una linea de codigo en especifico</p>
+
+        <p> CTRL + F = Buscar Palabras en el archivo abierto </p>
+
+        <p>CTRL + H = Remplazar </p>
+
+        <p> CTRL + B = Minimizar la barra lateral izquierda y abrirla nuevamente </p>
+
+    </ul>
+    </main>
 </body>
 
 
